@@ -1,0 +1,600 @@
+/* HERO BACKGROUND */
+.careers-hero {
+  background: url("../images/bg-01.jpg") no-repeat center center/cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.container
+{
+ margin-top: 12px;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: #ffffff !important;
+  font-weight: 500;
+  /* margin: 0 10px; */
+
+}
+
+
+/* Mobile button */
+.mobile-menu-btn {
+  border: none;
+  background: transparent;
+}
+
+/* Mobile nav list */
+.mobile-nav li {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 14px 18px;
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  background: #0e4ecf;
+}
+
+/* Offcanvas width */
+.offcanvas {
+  width: 300px;
+}
+
+
+/* CAREERS BADGE */
+.career-badge {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 5px 20px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* HERO TITLE */
+.hero-title {
+  font-size: 60px;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+/* HERO TEXT */
+.hero-text {
+  font-size: 21px;
+  font-weight: 500;
+  opacity: 0.9;
+  max-width: 520px;
+}
+
+/* HERO IMAGE */
+.hero-img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #1e90ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #1877e6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-text {
+    font-size: 15px;
+  }
+
+  .navbar-nav {
+    background: transparent;
+  }
+}
+
+
+
+/* MISSION SECTION */
+.mission-section {
+  background: #ffffff;
+}
+
+/* Title */
+.mission-title {
+  font-size: 30px;
+  font-weight: 630;
+  color: #2f3135;
+}
+
+/* Paragraph text */
+.mission-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* Bullet list */
+.mission-list {
+  padding-left: 20px;
+}
+
+.mission-list li {
+  font-size: 18px;
+  font-weight:500 ;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-bottom: 18px;
+}
+
+
+/* SECTION */
+.team-gallery {
+  background: #ffffff;
+}
+
+/* IMAGES */
+.rounded-img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+}
+
+/* TESTIMONIAL CARD */
+.testimonial-card {
+  background: #2f3a4f;
+  color: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  position: relative;
+}
+
+/* QUOTE ICON */
+.quote-icon {
+  font-size: 60px;
+  opacity: 0.25;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+/* TEXT */
+.testimonial-card p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* NAME */
+.testimonial-card h6 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+/* ROLE */
+.testimonial-card span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+
+/* BENEFITS SECTION */
+.benefits-section {
+  background-color: #ffffff;
+}
+
+.benefits-title {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.benefits-subtitle {
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+/* Benefit Item */
+.benefit-item {
+  gap: 18px;
+  align-items: flex-start;
+}
+
+
+
+.benefit-item h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.benefit-item p {
+  font-size: 15px;
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+
+/* FOUNDER SECTION */
+.founder-section {
+  background: url("../images/bg-02.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* LEFT TEXT */
+.founder-tag {
+  font-size: 25px;
+  font-weight: 700;
+  color: #6b7280;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.founder-name {
+  font-size: 55px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 15px 0;
+}
+
+.founder-text {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+/* VIDEO BOX */
+.video-box {
+  position: relative;
+  display: inline-block;
+}
+
+.video-img {
+  border-radius: 18px;
+
+}
+
+/* PLAY BUTTON */
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background: #1877f2;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.play-btn:hover {
+  background: #0f5fd6;
+  transform: translate(-50%, -50%) scale(1.1);
+  color: #fff;
+}
+
+
+/* Roles List Section */
+.roles-list-section {
+  background-color: #ffffff;
+}
+
+/* Job Card */
+.role-card {
+  background: #f8f9fb;
+  padding: 32px;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+/* Hover Effect */
+.role-card:hover {
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Tag */
+.role-tag {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #6b7280;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.role-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2f3a4a;
+  margin-bottom: 8px;
+}
+
+/* Location */
+.role-location {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+
+/* Open Roles Section */
+.open-roles-section {
+  background-color: #ffffff;
+}
+
+/* Title */
+.open-roles-title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #2f3a4a;
+  letter-spacing: -0.5px;
+}
+
+/* Subtitle */
+.open-roles-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6b7280;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Roles List Section */
+.roles-list-section {
+  background-color: #ffffff;
+}
+
+/* Job Card */
+.role-card {
+  background: #f8f9fb;
+  padding: 32px;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+/* Hover Effect */
+.role-card:hover {
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Category Tag */
+.role-tag {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #6b7280;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Role Title */
+.role-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2f3a4a;
+  margin-bottom: 8px;
+}
+
+/* Location */
+.role-location {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .open-roles-title {
+    font-size: 40px;
+  }
+
+  .open-roles-subtitle {
+    font-size: 18px;
+  }
+}
+
+
+
+/* Section wrapper */
+.career-section {
+  background-color: #ffffff;
+}
+
+/* Main box */
+.career-box {
+  background: url("../images/bg-05.jpg") no-repeat center center;
+  background-size:1300px;
+  border-radius: 20px;
+  padding: 1px 40px;
+  overflow: hidden;
+  height: 600Spx;
+}
+
+/* Title */
+.career-title {
+  font-size: 53px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Text */
+.career-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.career-btn {
+  background-color: #0268f8;
+  border: none;
+  padding: 30px 30px;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/* Image */
+.career-img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .career-box {
+    padding: 40px 30px;
+    text-align: center;
+  }
+
+  .career-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .career-img {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .career-title {
+    font-size: 32px;
+  }
+}
+
+
+.footer-section {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-logo img {
+  height: 45px;
+}
+
+.footer-logo h4 {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 20px;
+}
+
+.footer-list a:hover {
+  color: #2563eb;
+}
+
+.footer-email {
+  font-size: 20px;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  font-size: 25px;
+  color: #6b7280;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #2563eb;
+}
+
+
+/* Footer Bottom */
+.footer-bottom {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
+/* Divider line */
+.footer-line {
+  border-top: 1px solid #e6e6e6;
+  margin-bottom: 25px;
+}
+
+/* Text style */
+.footer-text {
+  font-size: 20px;
+  color: #6c757d;
+}
+
+/* Heart color */
+.heart {
+  color: #ff4d6d;
+}
+
+/* Link style */
+.footer-link {
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: #ff4d6d;
+}

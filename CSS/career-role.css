@@ -1,0 +1,236 @@
+.container
+{
+ margin-top: 12px;
+ background-color: #ffffff;
+}
+
+.navbar {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: #424040 !important;
+  font-weight: 500;
+
+}
+
+.mobile-menu-btn {
+  border: none;
+  background: transparent;
+
+}
+
+.mobile-nav li {
+  border-bottom: 1px solid #2966e0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 14px 18px;
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  background: #0e4ecf;
+}
+
+
+.offcanvas {
+  width: 300px;
+}
+
+
+.job-details-section {
+  background-color: #ffffff;
+  margin-left: 120px;
+}
+
+
+.job-category {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #6b7280;
+}
+
+.job-title {
+  font-size: 62px;
+  font-weight: 700;
+  color: #363a41;
+  line-height: 1.2;
+}
+
+
+.job-location {
+  font-size: 22px;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+
+.job-text {
+  font-size: 19px;
+  line-height: 1.8;
+  color: #83868d;
+  margin-top: 18px;
+  font-weight: 400;
+}
+
+
+.job-divider {
+  margin: 40px 0;
+  border-color: #5b5c5d;
+}
+
+
+.job-subtitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #454343;
+  margin-bottom: 20px;
+}
+
+.job-list {
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #1f1f1f;
+}
+
+.job-list li {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #87888a;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+
+.job-benefits-box {
+  background-color: #eceef3;
+  border-radius: 18px;
+  padding: 40px;
+}
+
+
+.benefit-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #51555c;
+  margin-bottom: 10px;
+}
+
+
+.benefit-text {
+  font-size: 19px;
+  font-weight: 450;
+  line-height: 1.7;
+  color: #6b7178;
+}
+
+
+
+.job-process-list {
+  margin: 20px 0 30px;
+  padding-left: 20px;
+
+}
+
+.job-process-list li {
+  font-size: 19px;
+  line-height: 1.8;
+  color: #83868d;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+
+.apply-btn-wrap {
+  width: 100%;
+}
+
+.apply-btn {
+  width: 100%;
+  height: 56px;
+  background-color: #006eff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.apply-btn:hover {
+  background-color: #006aff;
+}
+
+
+.apply-btn:focus {
+  outline: none;
+}
+
+
+/* Bottom logo container */
+.job-footer-logo {
+  margin-top: 80px;       
+  padding-top: 40px;
+  text-align: center;
+  
+}
+
+
+.job-footer-logo img {
+  height: 45px;
+  opacity: 0.9;
+}
+
+
+
+.logo-footer-divider {
+
+  margin: 50px 0 1px;
+  border: none;
+  border-top: 1px solid #6e7177;
+}
+
+
+/* Footer */
+.site-footer {
+  margin-bottom: 40px;
+  padding: 1px 0;
+  background-color: #ffffff;
+}
+
+/* Footer links */
+.footer-links a {
+  font-size: 20px;
+  color: #6b7280;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+  }
+
+.footer-links a:hover {
+  color: #1f2937;
+}
+
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 28px;
+  color: #9ca3af;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #1f2937;
+}
