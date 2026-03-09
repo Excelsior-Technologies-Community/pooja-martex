@@ -1,0 +1,288 @@
+section {
+
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  margin: 0 !important;
+}
+
+
+.row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+
+.container,
+.container-fluid {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 10px !important;
+}
+
+.navbar {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: #424040 !important;
+  font-weight: 500;
+
+}
+
+.mobile-menu-btn {
+  border: none;
+  background: transparent;
+
+}
+
+.mobile-nav li {
+  border-bottom: 1px solid #2966e0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 14px 18px;
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  background: #0e4ecf;
+}
+
+
+.offcanvas {
+  width: 300px;
+}
+
+.help-section {
+  background-color: #ffffff;
+}
+
+.help-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #2f3a4a;
+}
+
+
+.help-box {
+  width: 230px;
+  height: 160px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  color: #a6b0b8 !important;
+  font-size: 22px !important;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+
+.help-box .icon i {
+  font-size: 40px;
+}
+ 
+.nav-pills .nav-link.active {
+  background-color: #1f8fff !important;
+  color: #ffffff !important;
+  box-shadow: 0 10px 25px rgba(31, 143, 255, 0.3);
+}
+
+.nav-pills .nav-link.active i {
+  color: #ffffff;
+}
+
+
+.faq-section {
+  background: #ffffff;
+}
+
+
+
+
+
+/* Remove default arrow */
+.accordion-button::after {
+  display: none;
+}
+
+/* Add custom + icon */
+.accordion-button {
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #2f3a4a;
+  position: relative;
+  background: none;
+  box-shadow: none;
+  padding-right: 40px;
+}
+
+/* Plus icon */
+.accordion-button::before {
+  content: "+";
+  position: absolute;
+  right: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* When open → change to minus */
+.accordion-button:not(.collapsed)::before {
+  content: "−";
+}
+
+/* Body text */
+.accordion-body {
+  font-size: 20px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.faq-list {
+
+  padding-left: 20px;
+  margin: 0;
+}
+
+.faq-list li {
+  font-size: 20px;
+  color: #6c757d;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+
+.help-section {
+  background-color: #f3f4f6;
+}
+
+.help-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.help-text {
+  font-size: 18px;
+  color: #6c757d;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.help-btn {
+  background-color: #1f5aa8 !important;
+  color: #fff !important;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.help-btn:hover {
+  background-color: #1f6fd1;
+  color: #fff;
+}
+
+.help-img {
+  max-width: 420px;
+}
+
+
+.footer-section {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer-logo img {
+  height: 43px;
+}
+
+.footer-logo h4 {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.footer-title {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 22px;
+}
+
+.footer-list a:hover {
+  color: #2563eb;
+}
+
+.footer-email {
+  font-size: 22px;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  font-size: 26px;
+  color: #6b7280;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #2563eb;
+}
+
+
+
+.footer-bottom {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
+.footer-text {
+  font-size: 20px;
+  color: #6c757d;
+}
+
+
+.heart {
+  color: #ff4d6d;
+}
+
+
+.footer-link {
+  color: #6c757d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: #ff4d6d;
+}

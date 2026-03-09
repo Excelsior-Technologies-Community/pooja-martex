@@ -1,0 +1,165 @@
+section {
+  background-color: #f9f9f9 !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  margin: 0 !important;
+}
+
+
+.row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+
+.container,
+.container-fluid {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 10px !important;
+}
+
+.navbar {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-right: 30px;
+  color: #424040 !important;
+  font-weight: 500;
+
+}
+
+.mobile-menu-btn {
+  border: none;
+  background: transparent;
+
+}
+
+.mobile-nav li {
+  border-bottom: 1px solid #2966e0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 14px 18px;
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mobile-nav a:hover {
+  background: #0e4ecf;
+}
+
+
+.offcanvas {
+  width: 300px;
+}
+
+
+
+/* Title */
+.terms-title {
+  font-size:60px !important;
+  font-weight: 700;
+  color: #3d4654;
+}
+
+/* Subtitle */
+.terms-date {
+  font-size: 22px !important;
+  font-weight: 500;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+/* Content area */
+.terms-content {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 60px !important;
+}
+
+/* Heading */
+.terms-heading {
+  font-size: 38px !important;
+  font-weight: 600;
+  color: #2d3440;
+  margin-bottom: 30px !important;
+}
+
+/* Paragraph */
+.terms-content p {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 1.5;
+  color: #6a6675;
+  margin-bottom: 10px;
+}
+
+.list{
+  max-width: 900px;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 1.5;
+ color: #6a6675;
+ margin-bottom: 10px;
+}
+
+.terms-heading2 {
+  font-size: 34px !important;
+  font-weight: 600;
+  color: #2d3440;
+  margin-bottom: 30px !important;
+}
+.link{
+ font-size: 19px;
+}
+
+.footer-section {
+  background-color: #ffffff;
+}
+
+.footer-logo img {
+  max-width: 200px;
+}
+
+/* Divider */
+.footer-divider {
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+}
+
+/* Links */
+.footer-links li a {
+  font-size: 20px;
+  color: #6c757d;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer-links li a:hover {
+  color: #000;
+}
+
+/* Social Icons */
+.footer-social a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 30px;
+  color: #8a8f98;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #000;
+}

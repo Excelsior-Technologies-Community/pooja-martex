@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help center</title>
+    <link rel="stylesheet" href="CSS/help_center.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="careers-hero">
+
+  <!-- NAVBAR -->
+ <nav class="navbar navbar-expand-lg py-3">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="images/logo-blue.png" height="40" class="me-2">
+    </a>
+
+    <!-- Mobile Toggle Button -->
+    <button class="btn mobile-menu-btn d-lg-none"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu">
+      <i class="bi bi-sliders fs-4 text-white"></i>
+    </button>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Case Studies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sign In</a></li>
+        <li class="nav-item ms-3">
+          <a href="#" class="btn btn-primary w-100 py-2 fw-semibold">
+        Get Started
+      </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- OFFCANVAS MOBILE MENU -->
+<div class="offcanvas offcanvas-end " tabindex="-1" id="mobileMenu">
+  <div class="offcanvas-header">
+    <h5 class="fw-bold">Menu</h5>
+    <button type="button" class="btn-close " data-bs-dismiss="offcanvas"></button>
+  </div>
+
+  <div class="offcanvas-body p-0">
+
+    <ul class="mobile-nav list-unstyled">
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Case Studies</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+
+    <div class="px-3 mt-3">
+      <a href="#" class="btn btn-primary w-100 py-2 fw-semibold">
+        Get Started
+      </a>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section class="help-section py-5">
+  <div class="container text-center">
+
+    <h2 class="help-title mb-5">How Can We Help?</h2>
+
+    <ul class="nav nav-pills justify-content-center gap-2" id="helpTab" role="tablist">
+
+      <!-- Getting Started (Default Active) -->
+      <li class="nav-item" role="presentation">
+        <button class="nav-link help-box active" data-bs-toggle="pill" type="button">
+          <div class="icon mb-3">
+            <i class="bi bi-tools"></i>
+          </div>
+          Getting Started
+        </button>
+      </li>
+
+      <!-- My Account -->
+      <li class="nav-item" role="presentation">
+        <button class="nav-link help-box" data-bs-toggle="pill" type="button">
+          <div class="icon mb-3">
+            <i class="bi bi-person-badge"></i>
+          </div>
+          My Account
+        </button>
+      </li>
+
+      <!-- Pricing Plans -->
+      <li class="nav-item" role="presentation">
+        <button class="nav-link help-box" data-bs-toggle="pill" type="button">
+          <div class="icon mb-3">
+            <i class="fa fa-usd" aria-hidden="true"></i>
+
+          </div>
+          Pricing Plans
+        </button>
+      </li>
+
+      <!-- Other Questions -->
+      <li class="nav-item" role="presentation">
+        <button class="nav-link help-box" data-bs-toggle="pill" type="button">
+          <div class="icon mb-3">
+            <i class="bi bi-file-earmark-text"></i>
+          </div>
+          Other Questions
+        </button>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+<section class="faq-section py-5">
+  <div class="container">
+    
+    <div class="accordion" id="faqAccordion">
+
+     
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq1">
+            What is Martex and how does it work?
+          </button>
+        </h2>
+        <div id="faq1"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+           Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus congue <br>
+           efficitur and ipsum primis in cubilia laoreet augue egestas luctus donec and curabitur dapibus
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq2">
+            What's inside the package?
+          </button>
+        </h2>
+        <div id="faq2"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Sagittis congue augue egestas volutpat egestas magna suscipit egestas tempor magna undo ipsum vitae <br>
+            purus and efficitur ipsum primis in cubilia laoreet tempor gravida luctus neque purus ipsum neque
+          </div>
+          <div class="accordion-body">
+            Sapien egestas, congue gestas posuere cubilia congue ipsum mauris lectus laoreet and gestas neque vitae<br>
+            auctor dolor luctus placerat a magna cursus congue magna mpedit ligula undo congue. Maecenas agravida <br>
+            augue porttitor nunc, quis vehicula magna luctus tempor. Quisque vel laoreet turpis. Viverra augue, a augue <br>
+            tempor, dictum tempor diam. Sed pulvinar a consectetur nibh, imperdiet varius viverra
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq3">
+            General settings
+          </button>
+        </h2>
+        <div id="faq3"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            An augue cubilia laoreet magna suscipit egestas magna ipsum purus ipsum a primis an augue ultrice ligula <br>
+            egestas suscipit lectus gestas integer congue a lectus porta phasellus neque blandit tristique
+          </div>
+          <div class="accordion-body">
+            Sagittis congue augue egestas volutpat egestas magna suscipit egestas and magna and vehicula </div>
+          <div class="accordion-body">
+           Sagittis congue augue egestas volutpat egestas magna suscipit lipsum egestas magna ipsum vitae a purus <br>
+           ipsum congue efficitur ipsum primis in cubilia laoreet augue egestas luctus donec and curabitur          </div>
+        </div>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq4">
+            Which languages does Martex support?
+          </button>
+        </h2>
+        <div id="faq4"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            An augue cubilia laoreet and magna suscipit egestas magna ipsum purus ipsum primis undo augue ultrice<br>
+            ligula egestas suscipit lectus gestas integer congue a lectus porta tristique phasellus neque a blandit and <br>
+            tristique justo aliquam justo suscipit congue augue egestas volutpat egestas magna sem congue
+          </div>
+          <div  class="accordion-body">
+            An augue cubilia laoreet and magna suscipit egestas magna ipsum purus ipsum primis and augue efficitur <br>
+            ligula egestas suscipit lectus gestas integer congue a lectus porta phasellus neque
+            </div>
+        </div>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq5">
+            Automate testing with API
+          </button>
+        </h2>
+        <div id="faq5"
+             class="accordion-collapse collapse"
+             data-bs-parent="#faqAccordion">
+ <div class="accordion-body">
+  <ul class="faq-list">
+    <li>
+      Curabitur ac dapibus libero quisque eu congue tristique egestas phasellus blandit tristique justo aliquam.<br>
+       Aliquam vitae molestie quisque sapien justo, aliquet aliquam molestie sed purus undo venenatis tempor<br>
+       gravida eget lacinia. Augue aliquam a suscipit tincidunt tincidunt massa
+    </li>
+
+    <li>
+     Aliquam vitae molestie nunc. Quisque sapien justo, aliquet non molestie sed purus, venenatis
+    </li>
+
+    <li>
+      Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae an efficitur <br>
+      purus undo ipsum primis in cubilia laoreet augue egestas luctus donec curabitur dapibus libero
+    </li>
+  </ul>
+</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Help Section -->
+<section class="help-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="help-title">Still need help?</h2>
+        <p class="help-text">
+          Don't hesitate to contact us about any <br>
+          question you might be interested in
+        </p>
+        <a href="#" class="btn help-btn mt-3">
+          Ask your question here
+        </a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 text-center">
+        <img src="images/help.png" alt="Support" class="img-fluid help-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer-section py-5">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- LOGO -->
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-logo d-flex align-items-center">
+          <img src="images/logo-blue.png" alt="Martex Logo" class="me-2">
+          
+        </div>
+      </div>
+
+      <!-- COMPANY -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Company</h6>
+        <ul class="footer-list">
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Careers.html">Careers</a></li>
+          <li><a href="blog.html">Our Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- PRODUCT -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Product</h6>
+        <ul class="footer-list">
+          <li><a href="features.html">Integration</a></li>
+          <li><a href="customer.html">Customers</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="help_center.html">Help Center</a></li>
+        </ul>
+      </div>
+
+      <!-- LEGAL -->
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Legal</h6>
+        <ul class="footer-list">
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Site Map</a></li>
+        </ul>
+      </div>
+
+      <!-- CONNECT -->
+      <div class="col-lg-3 col-md-6">
+        <h6 class="footer-title">Connect With Us</h6>
+        <p class="footer-email">hello@yourdomain.com</p>
+
+        <div class="footer-social d-flex gap-3">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-github"></i></a>
+  <a href="#"><i class="fa fa-globe"></i></a>
+</div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<footer class="footer-bottom">
+  <div class="container">
+  
+
+    <div class="row align-items-center">
+      <!-- Left text -->
+      <div class="col-md-6 text-center text-md-start">
+        <p class="footer-text mb-0">
+          © 2025 Martex. All Rights Reserved
+        </p>
+      </div>
+
+      <!-- Right text -->
+      <div class="col-md-6 text-center text-md-end">
+        <p class="footer-text mb-0">
+          Made with <span class="heart">❤</span> by
+          <a href="#" class="footer-link">@elite-themes24</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+</body>
+</html>
