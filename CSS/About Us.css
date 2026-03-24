@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 .navbar-brand span {
   color: #1c1c1c;
   letter-spacing: 1px;
@@ -30,7 +34,7 @@
 
 .hero-section {
   background-color: #ffffff;
-  max-width:1400px;
+
 }
 
 .hero-title {
@@ -41,18 +45,21 @@
 }
 
 .hero-text {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 400;
   color: #6c757d;
-  line-height: 1;
-  max-width:1200px;
+  line-height: 1.5;
+
 } 
 
 /* Responsive */
- @media (max-width: 768px) {
+ @media (max-width: 100%) {
   .hero-title {
     font-size: 36px;
   }
 } 
+
+
 
 
 .mission-section {
